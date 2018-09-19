@@ -1,0 +1,294 @@
+Cursusinhoud zoeken
+
+Sectie 1
+
+Introduction
+
+Sectie 2
+Building a Walking Skeleton
+3. Introduction
+4. Creating the DotNet Core WebAPI using the DotNetCLI
+5. Reviewing the Project files in the DotNet Web API
+6. Running the DotNet Core application
+7. Environment settings and using dotnet watch
+8. Creating the first Model and DataContext
+9. Creating the Database using Entity Framework migrations
+10. Retrieving data from the Database
+11. Making our code asynchronous
+
+16. Adding CORS support to the API
+17. Displaying data from the API on the HTML page
+18. Adding Bootstrap and Font-Awesome to our Angular app
+19. Adding GIT for source control
+20. Summary of Section 2
+
+Sectie 3
+Security
+21. Intoduction
+22. Storing passwords in the Database
+23. Creating the User model
+24. The Repository pattern
+25. Creating an Interface for the Repository
+26. Creating the concrete Auth Repository and Register Method
+27. Creating the Login repository method
+28. Registering services in the Startup class
+29. Creating the Register method in our Auth Controller
+30. Using DTOs (Data Transfer Objects)
+31. Validation in the API
+32. Token Authentication
+33. Creating the Login method in the API
+34. Using the Authentication middleware
+35. Summary of Section 3
+
+Sectie 4
+Client side login and register
+36. Introduction
+Module 4 Snippets.txt
+37. Creating the Navigation and Login form
+38. Introduction to Angular template forms
+39. Introduction to Angular Services
+40. Injecting the Angular services in our Components
+41. Using *ngIf to conditionally display HTML Elements
+42. Adding a component so users can Register to our site
+home page snippet.txt
+registerCompnonent.txt
+43. Parent to Child Component communication using Input properties
+44. Component Communication Child to Parent using Output properties
+45. Adding the register method to the Auth Service
+46. Summary of Section 4
+
+Sectie 5
+Error Handling
+47. Introduction
+48. Handling exceptions in the API
+49. Setting up the Global exception handler in the API
+50. Handling errors in Angular
+51. Summary of Section 5
+
+Sectie 6
+Adding 3rd party components to our app
+52. Introduction
+53. Wrapping 3rd party libraries as an Angular service
+54. Using the Angular JWT library to improve token handling
+55. Using the Angular JWT library to decode tokens
+56. Adding Ngx Bootstrap to power our Bootstrap components
+57. Bringing some color to our app with a theme from Bootswatch
+58. Summary of Section 6
+
+Sectie 7
+Routing in Angular
+59. Introduction
+60. Setting up routing in Angular
+61. Setting up our links in the nav component
+62. Using routing in our components
+63. Protecting our routes with a route guard
+64. Protecting multiple routes with a single route guard using dummy routes
+65. Summary of Section 7
+
+Sectie 8
+Extending the API
+66. Introduction
+Module 8 Snippets.txt
+UserSeedData.json
+67. Extending the User Model
+68. Exploring Entity Framework migrations
+69. Entity Framework Relationships
+70. Seeding Data to the Database - Part 1
+JSON Generator Snippet.txt
+UserSeedData.json
+71. Seeding Data to the Database Part 2
+72. Creating a new repository for our API
+73. Creating the Users Controller
+74. Shaping the data to return with DTOs
+75. Using AutoMapper Part 1
+76. Using AutoMapper Part 2
+77. Summary
+
+Sectie 9
+Building a great looking User Interface
+78. Introduction
+Module 9 Snippets.txt
+79. Introduction to Interfaces in Typescript
+80. Adding Interfaces to our Typescript code
+81. Creating another Angular service
+82. Retrieving the Members into the Member List Component
+83. Creating Member Cards to display on our Member list page
+84. Giving our Members some style with CSS
+85. Adding animated buttons to the member cards
+86. Using Auth0 JwtModule to send up jwt tokens automatically
+87. Creating the Member Detailed View component class
+88. Designing the Member detailed view template - left hand side
+89. Adding a tabbed panel for the right hand side of the Member detailed page
+Styles snippet for tabbed panel.txt
+90. Using Route Resolvers to retrieve data
+91. Adding a photo gallery to our application
+92. Summary
+
+Sectie 10
+Updating Resources
+93. Introduction
+94. Creating a Member Edit Component
+95. Designing the template for the member profile edit page - part 1
+96. Creating the Member Edit Template part 2
+97. Adding a CanDeactivate route guard
+98. Persisting the Member updates
+99. Finishing off the Member edit component
+100. Summary
+
+Sectie 11
+Adding Photo upload functionality to the application
+101. Introduction
+102. Where should we store the photos?
+103. Using Cloudinary as a photo storage solution
+104. Creating the Photos controller Part 1
+105. Creating the Photos Controller Part 2
+106. Testing the Photo upload with Postman
+107. Creating the Photo upload component in Angular
+108. Adding a 3rd Party File Uploader
+109. Configuring the 3rd Party file uploader
+110. Adding the Set Main photo functionality to the API
+111. Adding the Set Main Photo functionality to the SPA
+112. Using the array filter method to provide instant feedback in the SPA
+113. Output properties revisited.
+114. Adding the main photo to the Nav bar
+115. Any to Any component communication in Angular
+116. Using BehaviorSubject to add any to any communication to our app.
+user.png
+117. Adding the Delete photo function to the API
+118. Adding the Delete Photo functionality to the SPA
+119. Summary
+
+Sectie 12
+Reactive Forms in Angular
+120. Introduction
+121. Introduction to Reactive Forms in Angular
+122. Validation in Reactive forms
+123. Custom Validators in Reactive forms
+124. Providing Validation feedback to the user
+125. Using the Reactive Forms FormBuilder Service
+126. Expanding the Registration form
+Expanding register form snippets.txt
+127. Handling Dates in Forms
+128. Updating the Register method in the API
+129. Completing the Registration implementation
+130. Fixing the Photos issue for newly registered users
+131. Summary
+
+Sectie 13
+Action Filters in ASP.NET Core
+132. Introduction
+133. Using a TimeAgo pipe for dates in Angular
+134. Using Action Filters
+
+Sectie 14
+Paging, Sorting and Filtering
+135. Introduction
+Module 14 Snippets.txt
+136. Paging in ASP.NET Core Web API
+137. Adding a PagedList class
+138. Setting up the paging helper classes
+139. Implementing pagination in the API
+140. Setting up pagination in the SPA
+141. Using nix-bootstrap pagination module
+142. Filtering in the API
+143. Adding additional filtering parameters to the API
+144. Adding filtering functionality to the SPA
+Adding the filtering functionality snippet.txt
+145. Sorting results in the API
+146. Adding the Sorting functionality to the SPA
+Adding the sorting functionality SPA snippet.txt
+147. Summary
+
+Sectie 15
+Adding the 'Likes' functionality from start to finish
+148. Introduction
+149. Configuring the EF relationship so users can like each other
+150. Creating the Like entity
+151. Adding the Send Like functionality in the API
+152. Retrieving the list of users liked and liked by user
+153. Adding the Send like functionality to the SPA
+154. Creating the Lists component
+Creating the lists component snippet.txt
+155. Summary of Section 15
+
+Sectie 16
+Add a private messaging system to the application
+156. Introduction
+Module 16 Snippets.txt
+157. Creating the Message Entity and relationships
+158. Adding the repository methods for the messages
+159. Adding the Create Message method in the API
+160. Adding the Repository methods for an Inbox, Outbox
+161. Creating the Message Controller
+162. Adding the Message thread methods to the API
+163. Working with the message component in the SPA
+164. Designing the Inbox and Outbox template
+Messages component snippet.txt
+165. Getting the message thread in the component
+166. Designing the message tab chat system
+167. Adding Query params to an Angular route
+168. Adding the send message functionality and a challenge
+169. Challenge solution - resolving the issue with the photos
+170. Adding the Delete message functionality to the API
+171. Deleting messages in the SPA
+172. Adding the Mark as Read functionality
+173. Summary of Section 16
+
+Sectie 17
+Publishing
+174. Introduction
+175. Using NG Build - Running our Angular app from the Kestrel server
+176. Angular Production build with the Angular CLI
+177. Using the Angular CLI for Ahead of Time Compilation
+178. Installing MySQL on Mac OSX
+179. Installing MySQL on Windows
+180. Entity Framework Database Providers - updating the SDK to match the provider
+181. Swapping the Database backend to MySQL
+182. Fixing the Ignored include warnings in the API
+183. Publishing our app to an IIS Server
+184. Preparing a Linux server for publishing our application
+Set up Linux server.txt
+185. Publishing the app to the Linux server
+Publishing to linux snippets.txt
+186. Course Wrap Up
+
+Sectie 18
+Course Updates - 22 Jul 2018
+187. Introduction
+Course Update Document.pdf
+Update Checklist (v2).pdf
+188. Update the .Net Core project to .Net Core 2.1
+189. Update the Angular application to use Angular v6
+190. A brief overview of the updated code
+191. Updating GIT to use a single repo for the projects
+
+Sectie 19
+Bonus - Publishing the application to Azure
+192. Setting up the Azure Resource group, App Service and Database
+193. Publishing the app to Azure
+
+Sectie 20
+Bonus - Identity and Role Management
+194. Introduction to Identity
+195. Setting up the project and refactoring Startup.cs
+196. Adding the Identity models
+197. Configuring the DataContext for Identity
+198. Configuring the Startup.cs class for Identity
+199. Fixing the errors and adding a new migration
+200. Updating the Seed Users method
+201. Updating the Login method
+202. Updating the register method
+203. Updating the seed method with Roles
+204. Adding roles to the JWT Token
+205. Policy based authorization
+206. Returning the users with their roles
+207. Adding the edit roles method in the API
+208. Creating the Admin Component in the SPA
+209. Updating the Auth guard to protect routes based on user role
+210. Adding a custom structural directive
+211. Adding the admin service and user management component
+212. Adding a Modal Component
+213. Passing the roles data into the Modal
+214. Passing data out of the Modal and hooking up to the API
+215. Challenge - Creating the Photo Management system,
+216. Challenge Solution
