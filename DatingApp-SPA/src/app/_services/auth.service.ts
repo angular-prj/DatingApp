@@ -27,4 +27,3 @@ constructor(private http: HttpClient) { }
   }
 }
 
-}
